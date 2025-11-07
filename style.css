@@ -7,7 +7,7 @@
 
 .container {
     margin-left: 50px;
-
+    margin-right: 50px;
 }
 
 .hero {
@@ -45,6 +45,54 @@
     margin-left: 5px;
 }
 
+.hero_2 {
+    margin-top: 20px;
+}
+
+.hero_2 article {
+    margin-top: 20px;
+}
+
 .hero article p {
     font-size: 17px;
+}
+
+.titles {   
+    display: flex;
+}
+
+.titles h2 {
+    margin-bottom: 5px;
+}
+
+.titles ul {
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+
+.titles ul li {
+    margin-bottom: 5px;
+}
+
+.titles h3 {
+    margin-bottom: 5px;
+}
+
+.titles address {
+    margin-bottom: 5px; 
+}
+
+.titles span {
+    margin-right: 30px;
+    font-weight: 600;
+}
+
+.titles div {
+    position: relative;
+    top: -5px;
+}
+
+.textdec {
+    color: #093467;
+    margin-bottom: 5px;
 }
