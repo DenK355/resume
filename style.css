@@ -104,3 +104,12 @@
 .article_2 p {
     margin-bottom: 5px;
 }
+
+.article_3 ul {
+    list-style: none;
+    margin-left: 155px;
+}
+
+.article_3 ul li {
+    margin-bottom: 10px;
+}
