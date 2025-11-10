@@ -1,42 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
 * {
     margin: 0;
     padding: 0;
 }
 
 .container {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 50px;      
+    margin-right: 50px; 
 }
 
-.hero {
+.description {
     margin-top: 50px;
 }
 
-.hero h1 {
+.description h1 {
     color: #093467;
     font-family: "Montserrat", sans-serif;
 }
 
-.hero h2 {
+.description h2 {
     color: #5a6ca0;
     margin-bottom: 10px;
 }
 
-.hero nav {
+.description nav {
     width: 600px;
     margin-bottom: 25px;
 }
 
-.hero nav ul {
+.description nav ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 }
 
-.hero nav a {
+.description nav a {
    text-decoration: none;
    color: black;
 }
@@ -45,15 +49,15 @@
     margin-left: 5px;
 }
 
-.hero_2 {
+.information_block {
     margin-top: 20px;
 }
 
-.hero_2 article {
+.information_block article {
     margin-top: 20px;
 }
 
-.hero article p {
+.description article p {
     font-size: 17px;
 }
 
@@ -88,8 +92,7 @@
 }
 
 .titles div {
-    position: relative;
-    top: -5px;
+    margin-top: -5px;
 }
 
 .textdec {
@@ -97,19 +100,28 @@
     margin-bottom: 5px;
 }
 
-.article_2 span {
+.education span {
     margin-right: 120px;
 }
 
-.article_2 p {
+.education p {
     margin-bottom: 5px;
 }
 
-.article_3 ul {
+.skills ul {
     list-style: none;
     margin-left: 155px;
 }
 
-.article_3 ul li {
+.skills ul li {
     margin-bottom: 10px;
+}
+
+.italicFont {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.weightFont {
+    font-weight: bold;
 }
