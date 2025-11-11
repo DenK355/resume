@@ -100,8 +100,12 @@
     margin-bottom: 5px;
 }
 
-.education span {
+.titles .paddings {
     margin-right: 120px;
+}
+
+.titles .weightFont {
+    margin-right: initial;
 }
 
 .education p {
